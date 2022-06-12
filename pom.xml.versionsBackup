@@ -13,7 +13,7 @@
 
 <!--    <groupId>sfg.brewery</groupId>-->
     <artifactId>brewery-monolith</artifactId>
-    <version>1.0.0</version>
+    <version>1.0-SNAPSHOT</version>
 
     <description>SFG Brewery Monolith UI</description>
     <name>SFG Brewery Monolith UI</name>
@@ -163,7 +163,6 @@
             <plugin>
                 <groupId>io.fabric8</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
-                <version>0.40.1</version>
                 <configuration>
                     <!--<dockerHost>http://127.0.0.1:2375</dockerHost>-->
                     <dockerHost>unix:///var/run/docker.sock</dockerHost>

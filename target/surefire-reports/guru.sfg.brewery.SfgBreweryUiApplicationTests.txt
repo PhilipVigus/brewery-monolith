@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: guru.sfg.brewery.SfgBreweryUiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.064 s <<< FAILURE! - in guru.sfg.brewery.SfgBreweryUiApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache
+
